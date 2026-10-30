@@ -70,3 +70,6 @@ ndk_api = 28
 
 global_tools = true
 byte_compile_python = true
+
+[project.scripts]
+deflock = "deflock:main"
