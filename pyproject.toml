@@ -37,14 +37,12 @@ dev = [
 
 [tool.uv]
 index-strategy = "unsafe-best-match"
-find-links = ["./wheelhouse"]
 
 [tool.uv.pip]
 extra-index-url = [
     "https://pypi-index.psychowaspx.workers.dev/simple",
     "https://pypi.anaconda.org/kivyschool/simple"
 ]
-find-links = ["./wheelhouse"]
 
 #### kivy-school configuration ####
 
