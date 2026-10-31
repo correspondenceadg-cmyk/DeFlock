@@ -9,6 +9,9 @@ dependencies = [
     "kivy>=2.3.1,<3.0.0",
 ]
 
+[project.scripts]
+deflock = "deflock:main"
+
 [build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
@@ -70,6 +73,3 @@ ndk_api = 28
 
 global_tools = true
 byte_compile_python = true
-
-[project.scripts]
-deflock = "deflock:main"
